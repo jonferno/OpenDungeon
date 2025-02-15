@@ -1,0 +1,56 @@
+{
+  "Noj Notrub": "Name: Noj Notrub\nRace: Dragonborn\nClass: Bard\nBackground: Entertainer\nAlignment: Chaotic Good\n\nAbility Scores:\nSTR: 9\nDEX: 10\nCON: 12\nINT: 14\nWIS: 14\nCHA: 14\n\nHP: 30\nAC: 10\n\nPersonality: Noj the Dragonborn stands at 6'4\" with vibrant blue scales that shimmer like the deep ocean. His draconic features are softened by kind, light green eyes. He often wears simple, travel-worn clothes, favoring practicality over ostentation. A well-loved lute is always strapped to his back, and a pouch of seasoned beef jerky hangs from his belt.\n\nEquipment:\n- Small Dagger in Right Boot\n- Basic Blue Clothing with Leather Padding\n- Satchel\n- Lute\n- Beef Jerky\n- Waterskin\n\nBackstory: Noj was born in a remote mountain village. He loved two things: his lute and beef jerky. While his clan crafted wind instruments, Noj was drawn to the lute, taught to him by a traveling bard. His love for beef jerky began with a human trapper who shared his \u0437\u0430\u043f\u0430\u0441\u044b (supplies). Yearning to explore beyond his village and share his music (and sample all the beef jerky the world has to offer), Noj left home. He now wanders the land, playing his lute and searching for the perfect piece of dried meat.",
+  "Dora Tealeaf": {
+    "name": "Dora Tealeaf",
+    "race": "Halfling",
+    "class": "Wizard",
+    "background": "Unknown",
+    "alignment": "Unknown",
+    "hp": "22",
+    "ac": "12",
+    "ability_scores": {
+      "STR": "10",
+      "DEX": "14",
+      "CON": "12",
+      "INT": "17",
+      "WIS": "13",
+      "CHA": "11"
+    },
+    "equipment": [
+      "Wand of the War Mage",
+      "Robes of the Arcane Brotherhood",
+      "Spellbook, magnifying glass, ink pen"
+    ],
+    "personality": "",
+    "backstory": "",
+    "image_path": "D:\\DND-OpenRouter-Images\\npc_portraits\\dora_tealeaf_halfling_wizard_portrait.png"
+  },
+  "Victoria Goldweaver": {
+    "name": "Victoria Goldweaver",
+    "race": "Human",
+    "class": "Rogue",
+    "background": "Unknown",
+    "alignment": "Unknown",
+    "hp": "23",
+    "ac": "15",
+    "ability_scores": {
+      "STR": "12",
+      "DEX": "17",
+      "CON": "13",
+      "INT": "10",
+      "WIS": "11",
+      "CHA": "14"
+    },
+    "equipment": [
+      "Shortsword",
+      "Leather Armor",
+      "Thieves' tools",
+      "Disguise kit",
+      "Explorer's pack"
+    ],
+    "personality": "",
+    "backstory": "",
+    "image_path": "D:\\DND-OpenRouter-Images\\npc_portraits\\victoria_goldweaver_human_rogue_portrait.png"
+  },
+  "Caspian Hawthorne": "Name: Caspian Hawthorne\nRace: Human\nClass: Ranger\nLevel: 5\n\nAbility Scores:\nSTR: 16\nDEX: 14\nCON: 12\nINT: 10\nWIS: 13\nCHA: 8\n\nHP: 35\nAC: 18\n\nBackground: Outlander\nAlignment: Neutral Good\n\nPersonality:\nResourceful, Independent, Guarded\n\nEquipment:\n- Longbow with quiver and 20 arrows\n- Leather armor\n- Backpack, bedroll, waterskin\n\nBackstory:\nCaspian grew up in a small village on the edge of a vast wilderness. He was trained by his father, a seasoned hunter, in the ways of tracking and survival. After his father's disappearance on a hunting trip, Caspian set out to find him, but instead found a new purpose in protecting the innocent from the dangers that lurk in the wild. He has been traveling for years, honing his skills and waiting for any sign of his father's fate."
+}

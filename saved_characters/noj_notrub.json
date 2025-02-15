@@ -1,0 +1,26 @@
+{
+  "name": "Noj Notrub",
+  "race": "Dragonborn",
+  "class": "Bard",
+  "background": "Entertainer",
+  "alignment": "Chaotic Good",
+  "ability_scores": {
+    "STR": 9,
+    "DEX": 10,
+    "CON": 12,
+    "INT": 14,
+    "WIS": 14,
+    "CHA": 14
+  },
+  "personality": "Noj the Dragonborn stands at 6'4\" with vibrant blue scales that shimmer like the deep ocean. His draconic features are softened by kind, light green eyes. He often wears simple, travel-worn clothes, favoring practicality over ostentation. A well-loved lute is always strapped to his back, and a pouch of seasoned beef jerky hangs from his belt.",
+  "backstory": "Noj was born in a remote mountain village. He loved two things: his lute and beef jerky. While his clan crafted wind instruments, Noj was drawn to the lute, taught to him by a traveling bard. His love for beef jerky began with a human trapper who shared his \u0437\u0430\u043f\u0430\u0441\u044b (supplies). Yearning to explore beyond his village and share his music (and sample all the beef jerky the world has to offer), Noj left home. He now wanders the land, playing his lute and searching for the perfect piece of dried meat.",
+  "equipment": [
+    "Small Dagger in Right Boot",
+    "Basic Blue Clothing with Leather Padding",
+    "Satchel",
+    "Lute",
+    "Beef Jerky",
+    "Waterskin"
+  ],
+  "image_path": "D:\\OpenDungeon\\saved_characters\\noj_notrub_dragonborn_bard_portrait.png"
+}

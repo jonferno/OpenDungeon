@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SettingsTab</class>
+ <widget class="QWidget" name="SettingsTab">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <layout class="QVBoxLayout" name="mainLayout">
+   <item>
+    <widget class="QGroupBox" name="apiGroup">
+     <property name="title">
+      <string>API Keys and Credentials</string>
+     </property>
+     <layout class="QVBoxLayout" name="apiLayout">
+      <item>
+       <layout class="QFormLayout" name="credentialsLayout"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="saveCredentialsBtn">
+        <property name="text">
+         <string>Save Credentials</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="modelsGroup">
+     <property name="title">
+      <string>AI Models</string>
+     </property>
+     <layout class="QVBoxLayout" name="modelsLayout">
+      <item>
+       <widget class="QLabel" name="dmModelLabel">
+        <property name="text">
+         <string>DM Model:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="dmCombo"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="saveDMBtn">
+        <property name="text">
+         <string>Save DM Model</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="npcLabel0">
+        <property name="text">
+         <string>NPC 0 Model:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="npcCombo0"/>
+      </item>
+      <item>
+       <widget class="QLabel" name="npcLabel1">
+        <property name="text">
+         <string>NPC 1 Model:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="npcCombo1"/>
+      </item>
+      <item>
+       <widget class="QLabel" name="npcLabel2">
+        <property name="text">
+         <string>NPC 2 Model:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="npcCombo2"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="saveNPCBtn">
+        <property name="text">
+         <string>Save NPC Models</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="ttsGroup">
+     <property name="title">
+      <string>Text-to-Speech Settings</string>
+     </property>
+     <layout class="QVBoxLayout" name="ttsLayout">
+      <item>
+       <layout class="QFormLayout" name="ttsFormLayout">
+        <item row="0" column="0">
+         <widget class="QLabel" name="regionLabel">
+          <property name="text">
+           <string>Azure Region:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QComboBox" name="regionCombo"/>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="voiceLabel">
+          <property name="text">
+           <string>Azure Voice:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QComboBox" name="voiceCombo"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="testGroup">
+        <property name="title">
+         <string>Test Voice</string>
+        </property>
+        <layout class="QVBoxLayout" name="testLayout">
+         <item>
+          <widget class="QTextEdit" name="testText">
+           <property name="placeholderText">
+            <string>Enter text to test the voice...</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="buttonLayout">
+           <item>
+            <widget class="QPushButton" name="speakBtn">
+             <property name="text">
+              <string>🔊 Speak</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="stopBtn">
+             <property name="text">
+              <string>⏹ Stop</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="saveTTSBtn">
+        <property name="text">
+         <string>Save TTS Settings</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

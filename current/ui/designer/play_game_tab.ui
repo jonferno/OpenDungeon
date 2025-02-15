@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PlayGameTab</class>
+ <widget class="QWidget" name="PlayGameTab">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <layout class="QVBoxLayout" name="mainLayout">
+   <item>
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <layout class="QVBoxLayout" name="gameLogLayout"/>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="inputLayout">
+     <item>
+      <layout class="QVBoxLayout" name="saveLoadLayout">
+       <item>
+        <widget class="QPushButton" name="saveGameBtn">
+         <property name="minimumHeight">
+          <number>40</number>
+         </property>
+         <property name="text">
+          <string>💾 Save Game</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="loadGameBtn">
+         <property name="minimumHeight">
+          <number>40</number>
+         </property>
+         <property name="text">
+          <string>📂 Load Game</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QTextEdit" name="inputArea">
+       <property name="minimumHeight">
+        <number>80</number>
+       </property>
+       <property name="maximumHeight">
+        <number>80</number>
+       </property>
+       <property name="placeholderText">
+        <string>Type your action here...</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="controlsLayout">
+       <item>
+        <widget class="QPushButton" name="submitBtn">
+         <property name="minimumHeight">
+          <number>40</number>
+         </property>
+         <property name="text">
+          <string>Submit</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="rollDiceBtn">
+         <property name="minimumHeight">
+          <number>40</number>
+         </property>
+         <property name="text">
+          <string>🎲 Roll d20</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="ttsLayout">
+       <item>
+        <widget class="QPushButton" name="speakBtn">
+         <property name="minimumHeight">
+          <number>40</number>
+         </property>
+         <property name="text">
+          <string>🔊 Speak</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="stopBtn">
+         <property name="minimumHeight">
+          <number>40</number>
+         </property>
+         <property name="text">
+          <string>⏹ Stop</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

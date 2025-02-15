@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AdventureTab</class>
+ <widget class="QWidget" name="AdventureTab">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <layout class="QVBoxLayout" name="mainLayout">
+   <item>
+    <widget class="QScrollArea" name="logScroll">
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="logWidget">
+      <layout class="QVBoxLayout" name="logLayout"/>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Fixed</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="buttonLayout">
+     <item>
+      <widget class="QPushButton" name="generatePartyBtn">
+       <property name="minimumHeight">
+        <number>60</number>
+       </property>
+       <property name="text">
+        <string>🧙 Generate New Party</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="startAdventureBtn">
+       <property name="minimumHeight">
+        <number>60</number>
+       </property>
+       <property name="text">
+        <string>🗺️ Start Adventure</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="resetBtn">
+       <property name="minimumHeight">
+        <number>60</number>
+       </property>
+       <property name="text">
+        <string>🔄 Reset Game</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="savePartyBtn">
+       <property name="minimumHeight">
+        <number>60</number>
+       </property>
+       <property name="text">
+        <string>Save Party</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="loadPartyBtn">
+       <property name="minimumHeight">
+        <number>60</number>
+       </property>
+       <property name="text">
+        <string>Load Party</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+</ui>
